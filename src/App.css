@@ -1,0 +1,82 @@
+:root {
+    font-family:Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --backgroundColor: #242424;
+    --backgroudBtn: #1a1a1a;
+    --color: white;
+    --inputBg: #3b3b3b;
+    --colBg1 : #4a4141;
+    --colBg2 : #302b2b;
+    background-color: var(--backgroundColor);
+    text-align: center;
+    color: var(--color);
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1{
+    margin-top: 4rem;
+    font-size: 3.26rem;
+  }
+  
+  .btn-group{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .btn{
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: var(--backgroudBtn);
+    color: var(--color);
+    padding: .8rem 1.2rem;
+    font-size: .9rem;
+    font-weight: bold;
+    &:hover{
+      transition: all 0.3s ease;
+      border: #6131cb 1px solid;
+    }
+  }
+  
+  .inputSearch{
+    width: 200px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: var(--inputBg);
+    padding: .7rem 1rem;
+    font-size: .9rem;
+    color: white;
+    font-weight: lighter;
+    &:hover{
+      border: #6131cb 1px solid;
+    }
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      --backgroundColor: white;
+      --color: #2c3e50;
+      --backgroudBtn: #f5f5f5;
+      --inputBg: #f5f5f5;
+      --colBg1 : #d8fff8;
+      --colBg2 : #7273ff;
+    }
+  }
