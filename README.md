@@ -6,7 +6,7 @@ yarn install
 ```
 
 ## Add file .env
-visit [(https://randomapi.com/)] to read documentation, it is used like this:
+visit [RandomAPI](https://randomapi.com/) to read documentation, it is used like this:
 ```
 VUE_APP_API_URL = https://randomuser.me/api/?results=(X)
 ```
